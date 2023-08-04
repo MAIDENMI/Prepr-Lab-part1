@@ -17,7 +17,7 @@ body {
 /* Header Styles (Applied to all pages) */
 .hero {
   position: relative;
-  height: 600px; /* Adjust the height to your desired size */
+  height: 600px; 
   color: #fff;
   text-align: center;
   background-image: url("images/hero.jpg");
@@ -33,7 +33,7 @@ body {
 }
 
 .logo {
-  width: 120px; /* Adjust the width to your desired size */
+  width: 120px;
   height: auto;
 }
 
@@ -80,18 +80,16 @@ body {
 /* Media Query for Wider Screens */
 @media screen and (min-width: 768px) {
   .hero {
-    height: 500px; /* Adjust the height for wider screens */
+    height: 500px;
   }
 
   .logo {
-    width: 150px; /* Adjust the width for wider screens */
+    width: 150px; 
   }
 }
 
 
-/* Information Section (Applied to information.html) */
-/* Global Styles (Applied to all pages) */
-/* ... */
+
 
 /* Information Section (Applied to information.html) */
 .info-main {
@@ -130,11 +128,11 @@ body {
 }
 
 .info-list li {
-  margin-bottom: 30px; /* Adjust the space between list items */
+  margin-bottom: 30px; 
 }
 
 .info-list li .info-box {
-  background-color: #f8f8f8; /* Add background color to info boxes */
+  background-color: #f8f8f8;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -208,8 +206,8 @@ body {
 }
 
 .featured-item img {
-  width: 300px; /* Adjust the width to your desired size */
-  height: 200px; /* Adjust the height to your desired size */
+  width: 300px; 
+  height: 200px; 
   object-fit: cover; /* Maintain aspect ratio and cover the container */
   border-radius: 10px 10px 0 0;
 }
@@ -269,7 +267,7 @@ body {
 
 .info-header {
   position: relative;
-  height: 300px; /* Adjust the height to your desired size */
+  height: 300px; 
   text-align: center;
   overflow: hidden; /* Hide any overflowing content */
 }
